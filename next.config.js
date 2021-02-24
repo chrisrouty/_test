@@ -1,4 +1,5 @@
 module.exports = {
+    productionBrowserSourceMaps: true,
     async redirects() {
         return [
             {
@@ -11,4 +12,5 @@ module.exports = {
     env: {
         DATABASE_URL: 'postgres://dbvovietnam:postgres@localhost:5432/dbvovietnam?schema=public',
     },
+
 }
